@@ -3,7 +3,14 @@ import arrow from "../../assets/icons8-стрелка-вниз-30.png";
 const NavText = () => {
   return (
     <>
-      <ul style={{ display: "flex", listStyle: "none", gap: "15px" }}>
+      <ul
+        style={{
+          display: "flex",
+          listStyle: "none",
+          gap: "15px",
+          alignItems: "center",
+        }}
+      >
         <li>Об экосистеме</li>
         <li>
           Цифровое пространство{" "}
